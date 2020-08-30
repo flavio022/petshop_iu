@@ -1,0 +1,534 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200827.001204.12004.0.001.json",
+    "dumpEventTime": "2020-08-27T00:12:04Z",
+    "dumpEventTimeStamp": "1598497924753",
+    "processId": 12004,
+    "cwd": "/home/flavio/workspace/petshop_iu",
+    "commandLine": [
+      "/home/flavio/.nvm/versions/node/v12.13.0/bin/node",
+      "/home/flavio/workspace/petshop_iu/node_modules/.bin/react-native",
+      "start"
+    ],
+    "nodejsVersion": "v12.13.0",
+    "glibcVersionRuntime": "2.27",
+    "glibcVersionCompiler": "2.17",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "node": "12.13.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.0/node-v12.13.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "5.4.0-42-generic",
+    "osVersion": "#46~18.04.1-Ubuntu SMP Fri Jul 10 07:21:24 UTC 2020",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1621,
+        "user": 4790000,
+        "nice": 19400,
+        "sys": 1028800,
+        "idle": 40521100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1824,
+        "user": 4866000,
+        "nice": 26900,
+        "sys": 1018200,
+        "idle": 40804100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1569,
+        "user": 5054600,
+        "nice": 24700,
+        "sys": 1048000,
+        "idle": 40938100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1406,
+        "user": 4836100,
+        "nice": 40300,
+        "sys": 1115600,
+        "idle": 37788100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1718,
+        "user": 4798800,
+        "nice": 23900,
+        "sys": 1066400,
+        "idle": 38603100,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 2083,
+        "user": 4863200,
+        "nice": 23100,
+        "sys": 1060100,
+        "idle": 38980300,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1718,
+        "user": 4352100,
+        "nice": 24200,
+        "sys": 1274700,
+        "idle": 39556600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz",
+        "speed": 1648,
+        "user": 4681500,
+        "nice": 17100,
+        "sys": 1091500,
+        "idle": 40529700,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "5c:c9:d3:e4:c0:1f",
+        "address": "192.168.0.12",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "5c:c9:d3:e4:c0:1f",
+        "address": "2804:14c:b3:2a80::1003",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "5c:c9:d3:e4:c0:1f",
+        "address": "2804:14c:b3:2a80:2426:efc7:5e11:a64f",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "5c:c9:d3:e4:c0:1f",
+        "address": "2804:14c:b3:2a80:4ddb:17ef:dd2e:3c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp3s0",
+        "internal": false,
+        "mac": "5c:c9:d3:e4:c0:1f",
+        "address": "fe80::f491:d916:5db5:7a17",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      }
+    ],
+    "host": "ubuntu-flavio"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000000b027f5",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::string const&, v8::Local<v8::String>) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000009d9fc3",
+      "symbol": "node::OnFatalError(char const*, char const*) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b37dbe",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000b38139",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce34f5",
+      "symbol": " [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000ce3b86",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cefa1a",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf0925",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cf3338",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000cb9c67",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x0000000000fefb9b",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    },
+    {
+      "pc": "0x00000000013725d9",
+      "symbol": " [/home/flavio/.nvm/versions/node/v12.13.0/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2153013248,
+    "totalCommittedMemory": 2151490504,
+    "usedMemory": 2136976152,
+    "availableMemory": 47604024,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 32568,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 1056512,
+        "capacity": 1047488,
+        "used": 10480,
+        "available": 1037008
+      },
+      "old_space": {
+        "memorySize": 1877585920,
+        "committedMemory": 1877405904,
+        "capacity": 1870959384,
+        "used": 1870471480,
+        "available": 487904
+      },
+      "code_space": {
+        "memorySize": 688128,
+        "committedMemory": 616448,
+        "capacity": 574560,
+        "used": 574560,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 6295552,
+        "committedMemory": 6294720,
+        "capacity": 1259280,
+        "used": 1259280,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 266035200,
+        "committedMemory": 266035200,
+        "capacity": 264624504,
+        "used": 264624504,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 245.374,
+    "kernelCpuSeconds": 5.60534,
+    "cpuConsumptionPercent": 250.979,
+    "maxRss": 2257350656,
+    "pageFaults": {
+      "IORequired": 25,
+      "IONotRequired": 1432474
+    },
+    "fsActivity": {
+      "reads": 8584,
+      "writes": 5360
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 93.53,
+    "kernelCpuSeconds": 2.79116,
+    "cpuConsumptionPercent": 96.3212,
+    "fsActivity": {
+      "reads": 8560,
+      "writes": 5360
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "GJS_DEBUG_TOPICS": "JS ERROR;JS LOG",
+    "LESSOPEN": "| /usr/bin/lesspipe %s",
+    "npm_package_dependencies_react_native": "0.63.2",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "SPACESHIP_ROOT": "/home/flavio/.oh-my-zsh/custom/themes/spaceship-prompt",
+    "USER": "flavio",
+    "LANGUAGE": "pt_BR:pt:en",
+    "npm_package_devDependencies_jest": "^26.4.2",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_user_agent": "yarn/1.19.1 npm/? node/v12.13.0 linux x64",
+    "TEXTDOMAIN": "im-config",
+    "XDG_SEAT": "seat0",
+    "npm_package_scripts_android": "react-native run-android",
+    "npm_config_bin_links": "true",
+    "SSH_AGENT_PID": "3087",
+    "XDG_SESSION_TYPE": "x11",
+    "npm_node_execpath": "/home/flavio/.nvm/versions/node/v12.13.0/bin/node",
+    "npm_config_init_version": "1.0.0",
+    "SHLVL": "1",
+    "CONDA_SHLVL": "1",
+    "LESS": "-R",
+    "OLDPWD": "/home/flavio",
+    "CHROME_DESKTOP": "code-url-handler.desktop",
+    "QT4_IM_MODULE": "xim",
+    "HOME": "/home/flavio",
+    "DESKTOP_SESSION": "ubuntu",
+    "TERM_PROGRAM_VERSION": "1.39.2",
+    "NVM_BIN": "/home/flavio/.nvm/versions/node/v12.13.0/bin",
+    "ZSH": "/home/flavio/.oh-my-zsh",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "GIO_LAUNCHED_DESKTOP_FILE": "/usr/share/applications/code.desktop",
+    "npm_config_init_license": "MIT",
+    "GNOME_SHELL_SESSION_MODE": "ubuntu",
+    "PAGER": "less",
+    "GTK_MODULES": "gail:atk-bridge",
+    "XDG_SEAT_PATH": "/org/freedesktop/DisplayManager/Seat0",
+    "YARN_WRAP_OUTPUT": "false",
+    "npm_config_version_tag_prefix": "v",
+    "GOROOT": "/usr/local/go",
+    "DBUS_SESSION_BUS_ADDRESS": "unix:path=/run/user/1000/bus",
+    "COLORTERM": "truecolor",
+    "GIO_LAUNCHED_DESKTOP_FILE_PID": "3647",
+    "_CE_M": "",
+    "npm_package_description": "- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo) - [Sobre o Projeto](#sobre-o-projeto) - [Feito Com](#feito-com) - [Começando](#come%C3%A7ando) - [Pré-requisitos](#pr%C3%A9-requisitos) - [Estrutura de Arquivos](#estrutura-de-arquivos) - [Instalação](#instala%C3%A7%C3%A3o) - [Passo Adicional no Android](#passo-adicional-no-android) - [Edição](#edi%C3%A7%C3%A3o) - [Publicação](#publica%C3%A7%C3%A3o) - [Contribuição](#contribui%C3%A7%C3%A3o) - [Licença](#licen%C3%A7a) - [Contato](#contato)",
+    "npm_package_devDependencies_eslint_import_resolver_babel_plugin_root_import": "^1.1.1",
+    "NVM_DIR": "/home/flavio/.nvm",
+    "npm_package_readmeFilename": "README.md",
+    "MANDATORY_PATH": "/usr/share/gconf/ubuntu.mandatory.path",
+    "IM_CONFIG_PHASE": "2",
+    "npm_package_devDependencies_babel_jest": "^26.3.0",
+    "npm_package_devDependencies__babel_runtime": "^7.11.2",
+    "npm_package_dependencies_reactotron_react_native": "^5.0.0",
+    "npm_package_dependencies_react_native_gesture_handler": "^1.7.0",
+    "LOGNAME": "flavio",
+    "GTK_IM_MODULE": "ibus",
+    "npm_package_devDependencies_eslint_plugin_import": "^2.22.0",
+    "_": "/usr/bin/yarn",
+    "npm_package_jest_preset": "react-native",
+    "npm_package_private": "true",
+    "DEFAULTS_PATH": "/usr/share/gconf/ubuntu.default.path",
+    "npm_package_scripts_lint": "eslint .",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "XDG_SESSION_ID": "c2",
+    "TERM": "xterm-256color",
+    "npm_package_devDependencies__babel_core": "^7.11.4",
+    "_CE_CONDA": "",
+    "GNOME_DESKTOP_SESSION_ID": "this-is-deprecated",
+    "npm_package_devDependencies_babel_plugin_root_import": "^6.5.0",
+    "npm_package_scripts_start": "react-native start",
+    "npm_config_ignore_scripts": "",
+    "npm_package_dependencies_axios": "^0.20.0",
+    "PATH": "/tmp/yarn--1598497824666-0.16451529149925714:/home/flavio/workspace/petshop_iu/node_modules/.bin:/home/flavio/.config/yarn/link/node_modules/.bin:/home/flavio/.yarn/bin:/home/flavio/.nvm/versions/node/v12.13.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/flavio/.nvm/versions/node/v12.13.0/lib/node_modules/npm/bin/node-gyp-bin:/home/flavio/.nvm/versions/node/v12.13.0/bin/node_modules/npm/bin/node-gyp-bin:/home/flavio/anaconda3/bin:/home/flavio/anaconda3/condabin:/home/flavio/.nvm/versions/node/v12.13.0/bin:/home/flavio/go/bin:/usr/local/go/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/flavio/.dotnet/tools:/home/flavio/Android/Sdk/emulator:/home/flavio/Android/Sdk/tools:/home/flavio/Android/Sdk/tools/bin:/home/flavio/Android/Sdk/platform-tools:/Users/flavio/.npm-packages/bin:/home/flavio/Android/Sdk/emulator:/home/flavio/Android/Sdk/tools:/home/flavio/Android/Sdk/tools/bin:/home/flavio/Android/Sdk/platform-tools",
+    "NODE": "/home/flavio/.nvm/versions/node/v12.13.0/bin/node",
+    "GDM_LANG": "pt_BR",
+    "SESSION_MANAGER": "local/ubuntu-flavio:@/tmp/.ICE-unix/2948,unix/ubuntu-flavio:/tmp/.ICE-unix/2948",
+    "npm_package_dependencies__unform_mobile": "^2.1.3",
+    "npm_package_name": "petshop_iu",
+    "XDG_MENU_PREFIX": "gnome-",
+    "S_COLORS": "auto",
+    "XDG_RUNTIME_DIR": "/run/user/1000",
+    "XDG_SESSION_PATH": "/org/freedesktop/DisplayManager/Session0",
+    "npm_package_devDependencies_metro_react_native_babel_preset": "^0.63.0",
+    "npm_package_devDependencies_eslint_plugin_jsx_a11y": "^6.3.1",
+    "DISPLAY": ":0",
+    "npm_package_devDependencies_eslint_config_airbnb": "^18.2.0",
+    "LANG": "pt_BR.UTF-8",
+    "XDG_CURRENT_DESKTOP": "Unity",
+    "npm_package_devDependencies_react_test_renderer": "16.13.1",
+    "npm_package_devDependencies_eslint": "^7.7.0",
+    "npm_package_devDependencies__react_native_community_eslint_config": "^2.0.0",
+    "LS_COLORS": "rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:",
+    "TERM_PROGRAM": "vscode",
+    "XDG_SESSION_DESKTOP": "ubuntu",
+    "XMODIFIERS": "@im=ibus",
+    "XAUTHORITY": "/home/flavio/.Xauthority",
+    "npm_lifecycle_script": "react-native start",
+    "SSH_AUTH_SOCK": "/run/user/1000/keyring/ssh",
+    "XDG_GREETER_DATA_DIR": "/var/lib/lightdm-data/flavio",
+    "npm_package_scripts_test": "jest",
+    "npm_package_scripts_ios": "react-native run-ios",
+    "npm_config_version_git_message": "v%s",
+    "GOPATH": "/home/flavio/go",
+    "SHELL": "/usr/bin/zsh",
+    "npm_lifecycle_event": "start",
+    "npm_package_version": "0.0.1",
+    "NO_AT_BRIDGE": "1",
+    "QT_ACCESSIBILITY": "1",
+    "GDMSESSION": "ubuntu",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"start\"]}",
+    "LESSCLOSE": "/usr/bin/lesspipe %s %s",
+    "CONDA_DEFAULT_ENV": "base",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_git_sign": "",
+    "TEXTDOMAINDIR": "/usr/share/locale/",
+    "GJS_DEBUG_OUTPUT": "stderr",
+    "GPG_AGENT_INFO": "/run/user/1000/gnupg/S.gpg-agent:0:1",
+    "npm_package_license": "MIT",
+    "npm_package_devDependencies_eslint_plugin_react": "^7.20.6",
+    "npm_config_strict_ssl": "true",
+    "XDG_VTNR": "7",
+    "SPACESHIP_VERSION": "3.11.2",
+    "QT_IM_MODULE": "ibus",
+    "npm_package_devDependencies_eslint_plugin_react_native": "^3.9.1",
+    "PWD": "/home/flavio/workspace/petshop_iu",
+    "npm_execpath": "/usr/share/yarn/bin/yarn.js",
+    "CLUTTER_IM_MODULE": "xim",
+    "CONDA_EXE": "/home/flavio/anaconda3/bin/conda",
+    "ANDROID_HOME": "/home/flavio/Android/Sdk",
+    "NVM_CD_FLAGS": "-q",
+    "XDG_DATA_DIRS": "/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop",
+    "XDG_CONFIG_DIRS": "/etc/xdg/xdg-ubuntu:/etc/xdg",
+    "npm_package_dependencies_styled_components": "^5.1.1",
+    "npm_package_dependencies_react_navigation": "^4.4.0",
+    "npm_package_dependencies_prop_types": "^15.7.2",
+    "npm_config_save_prefix": "^",
+    "npm_config_ignore_optional": "",
+    "CONDA_PREFIX": "/home/flavio/anaconda3",
+    "npm_package_devDependencies_babel_eslint": "^10.1.0",
+    "INIT_CWD": "/home/flavio/workspace/petshop_iu",
+    "npm_package_dependencies_react": "16.13.1"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": 16777216,
+      "hard": 16777216
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 31057,
+      "hard": 31057
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/lib/x86_64-linux-gnu/libdl.so.2",
+    "/usr/lib/x86_64-linux-gnu/libstdc++.so.6",
+    "/lib/x86_64-linux-gnu/libm.so.6",
+    "/lib/x86_64-linux-gnu/libgcc_s.so.1",
+    "/lib/x86_64-linux-gnu/libpthread.so.0",
+    "/lib/x86_64-linux-gnu/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/lib/x86_64-linux-gnu/libnss_files.so.2",
+    "/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2",
+    "/lib/x86_64-linux-gnu/libnss_dns.so.2",
+    "/lib/x86_64-linux-gnu/libresolv.so.2"
+  ]
+}
