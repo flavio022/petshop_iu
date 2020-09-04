@@ -5,7 +5,6 @@ const Input = ({icon}) => {
   return (
     <Container>
       <Icon name={icon} size={20} />
-      <TextInput></TextInput>
     </Container>
   );
 };

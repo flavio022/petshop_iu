@@ -1,17 +1,17 @@
 import styled from 'styled-components/native';
-import FeatherIcon from 'react-native-vector-icons/Feather';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 export const Container = styled.View`
   width: 360px;
-  height: 60px;
-  background: #fff;
+  height: 55px;
+  background: #cccdd2;
   border-radius: 10px;
   margin-bottom: 8px;
-  border-width: 2px;
-  border-color: #232129;
+  border-width: 1px;
+  border-color: #77828c;
   flex-direction: row;
   align-items: center;
-  margin: 3px auto;
+  margin: 3px auto 10px auto;
 `;
 
 export const TextInput = styled.TextInput`
@@ -20,6 +20,6 @@ export const TextInput = styled.TextInput`
   font-size: 16px;
 `;
 
-export const Icon = styled(FeatherIcon)`
+export const Icon = styled(MaterialIcons)`
   margin-left: 10px;
 `;
